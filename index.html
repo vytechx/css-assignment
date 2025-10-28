@@ -143,5 +143,97 @@
                 </div>
             </div>
         </section>
+
+        <!-- Form and Input Practice -->
+        <section class="section">
+            <h2 class="section-title">📝 Form &amp; Input Practice</h2>
+            <div class="form-container">
+                <div class="form-grid">
+                    <div>
+                        <h3>Text Inputs</h3>
+                        <div class="input-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="styled-input" placeholder="Enter your full name">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="styled-input input-success" placeholder="your@email.com" value="john@example.com">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" class="styled-input input-error" placeholder="Enter password">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" class="styled-input" placeholder="+1 (555) 123-4567">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3>Select &amp; Options</h3>
+                        <div class="input-group">
+                            <label for="country">Country</label>
+                            <select id="country" class="styled-select">
+                                <option value="">Select a country</option>
+                                <option value="us">United States</option>
+                                <option value="ca">Canada</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="de">Germany</option>
+                                <option value="fr">France</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label>Preferred Contact Method</label>
+                            <div class="radio-group">
+                                <div class="radio-item">
+                                    <input type="radio" id="email-contact" name="contact" class="styled-radio" value="email">
+                                    <label for="email-contact">Email</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" id="phone-contact" name="contact" class="styled-radio" value="phone">
+                                    <label for="phone-contact">Phone</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" id="sms-contact" name="contact" class="styled-radio" value="sms">
+                                    <label for="sms-contact">SMS</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="input-group">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="newsletter" class="styled-checkbox">
+                                <label for="newsletter">Subscribe to newsletter</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="terms" class="styled-checkbox">
+                                <label for="terms">I agree to the terms and conditions</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <div class="textarea-container">
+                        <textarea id="message" class="styled-textarea" placeholder="Enter your message here..."></textarea>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" class="styled-input">
+                </div>
+                
+                <div class="input-group">
+                    <label for="range">Range Slider</label>
+                    <input type="range" id="range" min="0" max="100" value="50" style="width: 100%; accent-color: #667eea;">
+                </div>
+            </div>
+        </section>
     </div>
 </body>
