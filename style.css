@@ -30,7 +30,7 @@ body {
         font-size: 12px;
     }
 .section {
-        background: white;
+        background: #fff;
         margin: 20px 0;
         padding: 30px;
         border-radius: 15px;
@@ -55,13 +55,18 @@ body {
 
 .demo-item {
     background: linear-gradient(45deg, #ff6b6b, #feca57);
-    color: white;
+    color: #fff;
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
     transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .demo-item:hover {
@@ -70,10 +75,11 @@ body {
 
 .grid-advanced {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: minmax(50px,1fr) minmax(100px,2fr) minmax(50px, 1fr);
         grid-template-rows: auto auto auto;
         gap: 15px;
         margin: 20px 0;
+        
     }
 
 .grid-item-1 { grid-area: 1 / 1 / 2 / 4; background: #ff6b6b; }
@@ -81,4 +87,8 @@ body {
 .grid-item-3 { grid-area: 2 / 2 / 4 / 3; background: #45b7d1; }
 .grid-item-4 { grid-area: 2 / 3 / 3 / 4; background: #f9ca24; }
 .grid-item-5 { grid-area: 3 / 1 / 4 / 2; background: #6c5ce7; }
-.grid-item-6 { grid-area: 3 / 3 / 4 / 4; background: #a55eea; }
+.grid-item-6 { grid-area: 3 / 3 / 4 / 4; background: #a55eea;}
+
+.grid-advanced .demo-item{
+    font-size: 2.5vw;
+}
