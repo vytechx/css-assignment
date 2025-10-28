@@ -34,5 +34,36 @@ body {
         margin: 20px 0;
         padding: 30px;
         border-radius: 15px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* left as rgba instead of converting to hex for readability*/
+    }
+.section-title {
+        color: #4a5568;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+        border-bottom: 3px solid #667eea;
+        padding-bottom: 10px;
+    }
+
+/* Grid section */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.demo-item {
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.demo-item:hover {
+        transform: translateY(-5px);
     }
