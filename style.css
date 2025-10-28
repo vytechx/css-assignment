@@ -122,3 +122,25 @@ body {
 .flex-directions .demo-item{
     max-width: 25%;
 }
+
+/* Position Practice Section */
+
+.position-container {
+    position: relative;
+    height: 300px;
+    background: #e9ecef;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.position-sticky {
+    position: sticky;
+    top: 0;
+    background: #17a2b8;
+    z-index: 9;
+}
+.position-absolute {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #28a745;
+}
