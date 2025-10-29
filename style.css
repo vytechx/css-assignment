@@ -20,7 +20,7 @@ body {
         bottom: 20px;
         right: 20px;
         background: #dc3545;
-        z-index: 10; /*change as necessary*/
+        z-index: 2;
         border-radius: 50%;
         width: 60px;
         height: 60px;
@@ -136,7 +136,7 @@ body {
     position: sticky;
     top: 0;
     background: #17a2b8;
-    z-index: 9;
+    z-index: 1;
 }
 .position-absolute {
     position: absolute;
